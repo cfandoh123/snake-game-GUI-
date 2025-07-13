@@ -27,7 +27,7 @@ class SnakeGame:
         
         # Initialize display
         self.dis = pygame.display.set_mode((self.DIS_WIDTH, self.DIS_HEIGHT))
-        pygame.display.set_caption('Improved Snake Game')
+        pygame.display.set_caption('Calvin\'s Snake Game')
         
         # Fonts
         self.font_style = pygame.font.SysFont("bahnschrift", 25)

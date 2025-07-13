@@ -33,8 +33,8 @@ A modern, feature-rich implementation of the classic Snake game built with Pytho
 # Install pygame
 pip install pygame
 
-# Run the improved game
-python improved_snake_game.py
+# Run the game
+python snake_game.py
 ```
 
 ## 🎯 How to Play
@@ -78,17 +78,15 @@ python improved_snake_game.py
 ### 4. **Game Mechanics**
 - **Progressive Speed**: Game gets faster as you progress
 - **Better Collision Detection**: More accurate boundary checking
-- **Improved Controls**: Prevents 180-degree turns (can't go directly opposite)
+- **Controls**: Prevents 180-degree turns (can't go directly opposite)
 - **Visual Feedback**: Clear indication of game state
 
 ## 📁 File Structure
 
 ```
 snake-game-GUI-/
-├── game.py                    # Original game
-├── improved_snake_game.py     # Improved version
-├── README.md                  # Original README
-├── README_IMPROVED.md         # This file
+├── snake_game.py              # Original game
+├── README.md                  # README
 └── high_score.json           # High score storage (created automatically)
 ```
 
@@ -110,7 +108,7 @@ snake-game-GUI-/
 
 ## 🔮 Future Enhancements
 
-The improved code structure makes it easy to add new features:
+The code structure makes it easy to add new features:
 
 ### Potential Additions
 - **Sound Effects**: Background music and sound effects
@@ -128,7 +126,7 @@ The improved code structure makes it easy to add new features:
 
 ## 🐛 Known Issues
 
-None currently identified. The improved version addresses all major issues from the original game.
+None currently identified.
 
 ## 🤝 Contributing
 
@@ -140,4 +138,4 @@ This project is open source and available under the MIT License.
 
 ---
 
-**Enjoy the improved Snake Game!** 🐍 
+**Enjoy the Snake Game!** 🐍 
