@@ -1,4 +1,4 @@
-# Improved Snake Game
+# Snake Game
 
 A modern, feature-rich implementation of the classic Snake game built with Python and Pygame.
 
